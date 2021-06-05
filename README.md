@@ -1,2 +1,10 @@
-# curso-de-matlab-y-octave
+# CURSO DE MATLAB & Octave
+## Para Ingenieros y Científicos
 Este es un curso que se desarrolla los días sábados de junio de 2021 en intervalo de 08:00 am a 02:00 pm (GMT -05:00 , Lima).
+
+### CLONAR REPOSITORIO DE GITHUB MEDIANTE GITBASH PARA WINDOWS 10:
+$ git clone url-repository
+$ git status
+$ git add --all
+$ git commit -m "first commit"
+$ git push
