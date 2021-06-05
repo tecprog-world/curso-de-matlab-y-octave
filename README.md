@@ -12,3 +12,5 @@ $ git push
 ```
 Se esta trabajando mediante el Matlab R2020a
 ![R2020a](/source/figura01.png)
+Podemos obtener gráficas tridimensionales.
+![Superficie tridimensional animada](/source/figura01.png)
