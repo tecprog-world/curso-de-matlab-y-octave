@@ -21,6 +21,6 @@ Para ver los parquetes instalados hacemos en el prompt:
 pkg list
 ```
 Para instalar paquetes seguimos la sintáxis hacemos en el prompt:
-'''matlab
+```matlab
  pkg install -forge package_name
-'''
+```
