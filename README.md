@@ -14,3 +14,13 @@ Se esta trabajando mediante el Matlab R2020a
 ![R2020a](/source/figura01.png)
 Podemos obtener gráficas tridimensionales.
 ![Superficie tridimensional animada](/source/DancingPeaks.gif)
+
+#### Octave
+Para ver los parquetes instalados hacemos en el prompt:
+```matlab
+pkg list
+```
+Para instalar paquetes seguimos la sintáxis hacemos en el prompt:
+'''matlab
+ pkg install -forge package_name
+'''
