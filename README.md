@@ -24,3 +24,7 @@ Para instalar paquetes seguimos la sintáxis hacemos en el prompt:
 ```matlab
  pkg install -forge package_name
 ```
+
+#### Matlab
+Haciendo uso de control de flujo 'WHILE'
+![WhileComand](/source/figura02.png)

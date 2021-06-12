@@ -1,4 +1,7 @@
-# SCRIPT PARA MATLAB
+% SCRIPT VALIDO PARA OCTAVE
+clear
+clc
+pkg load symbolic
 syms a b
 c = 2.1;
 g = 4.81*sin(a/3)+3*exp(-b/c)
