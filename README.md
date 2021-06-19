@@ -24,4 +24,5 @@ Para instalar paquetes seguimos la sintáxis hacemos en el prompt:
 ```matlab
  pkg install -forge package_name
 ```
-
+Para ingresar al Play-list del curso en Youtube, acceda a:
+https://www.youtube.com/watch?v=nO_9IRyPJHA&list=PL4M0Xx_hyG3zpQh9wEpF-ozfuSu314FW3
