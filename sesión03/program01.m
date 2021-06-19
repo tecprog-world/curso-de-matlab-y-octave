@@ -194,3 +194,36 @@ x
 format loose
 disp("format loose, x: ")
 x
+disp('****************')
+
+% 01.02.02. CADENAS DE CARACTERES
+% En Matlab, cadena se refiere a un arreglo de caracteres UNICODE. La
+% cadena es un vector, donde cada elemento de este vector es un carácter.
+
+% 01.02.02.01. Creación de una cadena de caracteres (arreglo de caracteres
+% de 1 dimensión).
+% Se especifica el dato carácter ubicando a los caracteres dentro de un par
+% de comillas simples.
+curso = 'Matlab R200a'
+whos curso
+% Como se puede aprecia cada carácter usa 2 bytes en su almacenamiento
+% interno.
+% Las funciones class e ischar muestran la identidad de curso como un
+% arreglo de caracteres.
+class(curso)
+ischar(curso)
+% La función de concatenación strcat o el operador de concatenación Matlab
+% [], que permite unir 2 o más caracteres generando un nuevo arreglo de
+% caracteres.
+curso='Matlab R2018a'
+organizacion="TW"
+strcat(organizacion,',',curso)
+strvcat(organizacion,',',curso)
+dist('************')
+
+% La siguiente matriz tiene 5 cadenas todas de 10 caracteres cada una.
+distritos=['Miraflores';'San Isidro'; 'Los Olivos'; 'Carabayllo']
+distritos
+% Cuando creamos arreglos de caracteres desde cadenas de diferentes tamños,
+% se debe rellenar las cadenas más cortas con espacios en blanco para
+% forzar a aque las filas sean de la misma longitud.
