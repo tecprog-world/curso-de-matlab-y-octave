@@ -74,4 +74,19 @@ clc
 
 % 03.02. Conversiones y formatos de fecha
 % Funciones de formato y descripción
-% datestr(fecha,tipo) 
+% datestr(fecha,tipo)
+% ***********************************
+%t = [datetime('now');datetime('tomorrow')]
+%
+%t = 2x1 datetime
+%   23-Feb-2021 14:50:12
+%   24-Feb-2021 00:00:00
+%
+%DateString = datestr(t)
+%
+%DateString = 2x20 char array
+%    '23-Feb-2021 14:50:12'
+%    '24-Feb-2021 00:00:00'
+% ***********************************
+% datenum(fecha) % Número serial (número 1 es el 01/01/0000).
+% datevec(fecha) % Vector fecha [año mes dia hora min seg]
