@@ -26,3 +26,6 @@ Para instalar paquetes seguimos la sintáxis hacemos en el prompt:
 ```
 Para ingresar al Play-list del curso en Youtube, acceda a:
 https://www.youtube.com/watch?v=nO_9IRyPJHA&list=PL4M0Xx_hyG3zpQh9wEpF-ozfuSu314FW3
+
+#### MATLAB
+![Trabajamos con Manipuladores de funciones](/source/figura03.png)

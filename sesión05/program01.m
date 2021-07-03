@@ -73,3 +73,10 @@
 % 
 %
 % *********************************
+disp('Caso 01')
+y=f1(pi/2) % Evalua sin en pi/2
+whos f1
+
+disp('Caso 02')
+f1=@exp
+y=f1(1)
