@@ -90,3 +90,6 @@ clc
 % ***********************************
 % datenum(fecha) % Número serial (número 1 es el 01/01/0000).
 % datevec(fecha) % Vector fecha [año mes dia hora min seg]
+%
+%
+%
